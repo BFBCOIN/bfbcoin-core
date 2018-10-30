@@ -1,7 +1,7 @@
 bfb Core integration/staging tree
 =====================================
 
-http://xmfpool.com
+http://www.xmfpool.com
 
 What is bfb?
 ----------------
