@@ -1,12 +1,12 @@
-bfb Core integration/staging tree
+BFB Core integration/staging tree
 =====================================
 
 http://www.xmfpool.com
 
-What is bfb?
+What is BFB?
 ----------------
 
-bfb is an experimental digital currency that enables instant payments to
+BFB is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. bfb uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. bfb Core is the name of open source
