@@ -1,0 +1,33 @@
+# /etc/conf.d/bfbd: config file for /etc/init.d/bfbd
+
+# Config file location
+#BFBD_CONFIGFILE="/etc/bfb/bfb.conf"
+
+# What directory to write pidfile to?  (created and owned by $BFBD_USER)
+#BFBD_PIDDIR="/var/run/bfbd"
+
+# What filename to give the pidfile
+#BFBD_PIDFILE="${BFBD_PIDDIR}/bfbd.pid"
+
+# Where to write bfbd data (be mindful that the blockchain is large)
+#BFBD_DATADIR="/var/lib/bfbd"
+
+# User and group to own bfbd process
+#BFBD_USER="bfb"
+#BFBD_GROUP="bfb"
+
+# Path to bfbd executable
+#BFBD_BIN="/usr/bin/bfbd"
+
+# Nice value to run bfbd under
+#BFBD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BFBD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bfbd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BFBD_SIGTERM_TIMEOUT=60

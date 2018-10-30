@@ -1,0 +1,22 @@
+[Unit]
+Description=bfb's distributed currency daemon
+After=network.target
+
+[Service]
+User=bfb
+Group=bfb
+
+Type=forking
+PIDFile=/var/lib/bfbd/bfbd.pid
+ExecStart=/usr/bin/bfbd -daemon -pid=/var/lib/bfbd/bfbd.pid \
+-conf=/etc/bfb/bfb.conf -datadir=/var/lib/bfbd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

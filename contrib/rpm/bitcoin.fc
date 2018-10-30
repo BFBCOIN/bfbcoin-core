@@ -1,0 +1,8 @@
+/usr/bin/bfb-cli		--	gen_context(system_u:object_r:bfb_exec_t,s0)
+/usr/sbin/bfbd		--	gen_context(system_u:object_r:bfb_exec_t,s0)
+/usr/lib(64)?/bfb/bfbd		--	gen_context(system_u:object_r:bfb_exec_t,s0)
+
+/etc/bfb(/.*)?		gen_context(system_u:object_r:bfb_conf_t,s0)
+/var/lib/bfb(/.*)?		gen_context(system_u:object_r:bfb_var_lib_t,s0)
+
+(/var)?/run/bfbd(/.*)?   gen_context(system_u:object_r:bfb_var_run_t,s0)

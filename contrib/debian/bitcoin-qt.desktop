@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=bfb Core
+Comment=Connect to the bfb P2P Network
+Comment[de]=Verbinde mit dem bfb peer-to-peer Netzwerk
+Comment[fr]=bfb, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=bfb, eşten eşe kriptografik sanal para birimi
+Exec=bfb-qt %u
+Terminal=false
+Type=Application
+Icon=bfb128
+MimeType=x-scheme-handler/bfb;
+Categories=Office;Finance;
