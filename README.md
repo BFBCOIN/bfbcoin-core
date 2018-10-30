@@ -13,7 +13,7 @@ out collectively by the network. bfb Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the bfb Core software, see https://bfb.org
+the BFB Core software, see http://www.xmfpool.com
 
 License
 -------
@@ -64,7 +64,7 @@ to add a test plan to the pull request description if testing the changes is
 not straightforward.
 
 
-About bfb
+About BFB
 ----------------
 A digital peer to peer network for the facilitation of asset transfer.
 
